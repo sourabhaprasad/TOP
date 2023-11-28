@@ -200,7 +200,7 @@ html, body{
 
 .tour-image{
     background-color: rgba(0, 0, 0, 0.75);
-    background-image: url(images/bandito-tour.jpg);
+    background-image: url(bandito-tour.jpg);
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
