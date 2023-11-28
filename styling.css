@@ -1,0 +1,438 @@
+*{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+html, body{
+    margin: 2;
+    padding: 0;    
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, 0.405);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    border-bottom: 0.5px rgb(255, 255, 255);
+}
+
+.main-nav li {
+    padding: 5%;
+}
+
+.main-header{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(images/headernew.png);
+    background-blend-mode: multiply;
+    background-size: contain;
+    background-position: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    font-family: "Booter - Zero -Zero";
+    font-weight: normal;
+    color: white;
+}
+
+.content-section{
+    margin: 4em;
+    font-size: medium;
+
+}
+
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 0.5em;
+}
+
+
+.section-header, .section-header2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 2.2em;
+    color: black;
+    text-align: center;
+}
+
+
+.section-header2{
+    font-family:sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+
+.band-image{
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+
+.main-footer{
+    background-color:#f5ee15;
+    color: white;
+    padding: .25em 0;
+}
+
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.band-name-footer{
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+}
+
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 2em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+
+.btn-header{
+    display: block;
+    margin: 0 auto;
+    color: white;
+    border: 2px solid #f4e32e;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6em;
+    font-weight: normal;
+    
+
+    padding: .2em;
+    cursor: pointer;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color:  white;
+    font-size: 1.0em;
+    border-radius: 50%;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+
+
+.container {
+    text-align: center; /* Optional: Center the buttons within the container */
+}
+
+.btn-stream, .btn-play {
+    display: inline-block;
+}
+
+
+.btn-stream a {
+    text-decoration: none; 
+    display: inline-block; 
+    width: 100%; 
+    height: 100%; 
+}
+
+
+.tour-image{
+    background-color: rgba(0, 0, 0, 0.75);
+    background-image: url(images/bandito-tour.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+
+.tour-header{
+    color: #f4e32e;
+    font: bolder;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+
+.tour-row {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.159);
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    align-items: center;
+}
+
+
+/* THE LAST CHILD SELECTOR */
+.tour-row:last-child{
+    border-bottom: none;
+}
+
+
+.tour-item{
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date{
+    padding-left: 5em;
+    font-size: larger;
+    color: #f4e32e;    
+    font-weight: bolder;
+    width: 20%;
+}
+
+
+.tour-city{
+    width: 24%;
+    
+}
+
+
+.tour-arena{
+    width: 35%;
+    
+}
+
+
+.tour-btn{
+    max-width: 19%;
+    
+}
+
+
+.btn-primary{
+    color: black;
+    background-color: #f4e32e;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+
+}
+
+
+.btn-primary:hover{
+    background-color:#bcb560;
+}
+
+
+
+.shop-item{
+    margin: 40px;
+
+}
+
+
+.shop-item-title{
+    display: block;
+    font-family: cursive;
+    width: 100%;
+    text-align: center;
+    /*     font-weight: bold; */
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.shop-item-image{
+    height: 250px;
+
+}
+
+.shop-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.shop-item-price{
+    flex-grow: 1;
+
+}
+
+
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.cart-header{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.2em;
+
+}
+
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.cart-row{
+    display: flex;
+
+}
+
+
+.cart-item{
+    width: 45%;
+}
+
+
+.cart-price{
+    width: 20%;
+}
+
+
+.cart-quantity{
+    width: 35%;
+}
+
+
+.cart-item-title{
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+
+.cart-item-image{
+    width: 75px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.btn-danger{
+    height: 35px;
+    width: 60px;
+    color: white;
+    background-color: #eb5757;
+    border: none;
+    border-radius: 1ex;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color:#df7c7c;
+}
+
+
+.cart-quantity-input{
+    height: 34px;
+    width: 50px;
+    border-radius: 6px;
+    border: 1px solid rgb(4, 179, 248);
+    background-color: rgba(250, 235, 215, 0.5);
+    color: black; 
+    padding: 0;
+    text-align: center;
+    font: 1.2em;
+    margin-right: 25px;
+    margin-left: 10px;
+}
+
+
+.cart-total{
+    padding-right: 25px;
+    text-align: end;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.cart-total-title{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 5px;
+}
+
+.cart-total-price{
+    font-size: 1.1em;
+}
+
+
+.btn-purchase{
+    display: block;
+    margin: 60px auto 100px auto;
+    border-radius: 5%;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(248, 59, 90);
+    border: none;
+    
+}
+
+
+.btn-purchase:hover{
+    background-color: #df7c7c;
+}
